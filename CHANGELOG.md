@@ -1,5 +1,32 @@
 # Change Log
 
+## [0.9.3][2016-12-07]
+
+* Fix [#396](https://github.com/typicode/json-server/issues/396) PUT/PATCH saves the updated item with an id that has been converted to string
+
+## [0.9.2][2016-11-29]
+
+* Fix [#221](https://github.com/typicode/json-server/issues/221) `nohup` support
+* Fix [#420](https://github.com/typicode/json-server/issues/420) TypeError when watching `db.json`
+
+## [0.9.1][2016-11-21]
+
+* Fix
+ * [#412](https://github.com/typicode/json-server/issues/412)
+ * [#451](https://github.com/typicode/json-server/issues/411)
+
+## [0.9.0][2016-11-11]
+
+* Shorter `uuid`
+* No automatic conversion of strings to boolean or integer
+* Create a default `db.json` file if it doesn't exist
+* Fix
+  * [#361](https://github.com/typicode/json-server/issues/361)
+  * [#363](https://github.com/typicode/json-server/issues/363) [#365](https://github.com/typicode/json-server/issues/365)
+  * [#374](https://github.com/typicode/json-server/issues/374)
+  * [#383](https://github.com/typicode/json-server/issues/383)
+* Updated dependencies and codebase to ES6 
+
 ## [0.8.23][2016-11-03]
 
 * Fix `Links` header
